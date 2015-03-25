@@ -1,8 +1,35 @@
 ﻿<Window x:Class="Domaci.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="518.657" Width="654.851" Loaded="Window_Loaded">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="120"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Width="80" Margin="5" x:Name="LeftButton">Dodaj L</Button>
+            <Button Width="80" Margin="5" x:Name="RightButton">Dodaj R</Button>
+        </StackPanel>
+        <Rectangle Grid.Column="0" Grid.Row="1" Width="130" Height="110" Margin="5" Fill="Aqua"  ></Rectangle>
+        <TextBox Grid.Column="1" Grid.Row="1" Width="400" Height="50" FontSize="20" >Search</TextBox>
+        <StackPanel Grid.Column="0" Grid.Row="2" x:Name="LeftContainer">
+            <Rectangle Width="120" Height="100" Margin="5" Fill="Orange"></Rectangle>
+            <Rectangle Width="120" Height="100" Margin="5" Fill="Orange"></Rectangle>
+            <Rectangle Width="120" Height="100" Margin="5" Fill="Orange"></Rectangle>
+        </StackPanel>
         
+        <StackPanel Grid.Column="1" Grid.Row="2" x:Name="RightContainer">
+            <Rectangle Width="400" Height="50" Margin="10" Fill="Red"></Rectangle>
+            <Rectangle Width="400" Height="50" Margin="10" Fill="Red"></Rectangle>
+            <Rectangle Width="400" Height="50" Margin="10" Fill="Red"></Rectangle>
+            <Rectangle Width="400" Height="50" Margin="10" Fill="Red"></Rectangle>
+            <Rectangle Width="400" Height="50" Margin="10" Fill="Red"></Rectangle>
+        </StackPanel>
     </Grid>
 </Window>
