@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci", "Domaci\Domaci.csproj", "{727119B9-7553-4927-A182-6E9653397485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateProject", "DateProject\DateProject.csproj", "{08D23ECA-5F32-4E74-ADB3-DCDCB95BBE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTestProject", "DateTestProject\DateTestProject.csproj", "{AA3D6A4C-9A7B-41B2-9821-E13E6F965F78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{727119B9-7553-4927-A182-6E9653397485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{727119B9-7553-4927-A182-6E9653397485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{727119B9-7553-4927-A182-6E9653397485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D23ECA-5F32-4E74-ADB3-DCDCB95BBE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D23ECA-5F32-4E74-ADB3-DCDCB95BBE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D23ECA-5F32-4E74-ADB3-DCDCB95BBE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D23ECA-5F32-4E74-ADB3-DCDCB95BBE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3D6A4C-9A7B-41B2-9821-E13E6F965F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3D6A4C-9A7B-41B2-9821-E13E6F965F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3D6A4C-9A7B-41B2-9821-E13E6F965F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3D6A4C-9A7B-41B2-9821-E13E6F965F78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
